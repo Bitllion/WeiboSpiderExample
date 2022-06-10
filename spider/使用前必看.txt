@@ -1,0 +1,11 @@
+topic 中只需要修改 topic_config.json 文件
+
+里面的 cookie，和你想要爬取的话题及时间和范围
+
+cookie 怎么获取可以参考公众号【月小水长】#微博超级爬虫 里面的内容，直接在这个搜 cookie 就行，或者关注 B 站【月小水长】，里面有视频教程
+
+然后运行 test.py 即可，from NewSuperWeiboTimelineTopicSpider import main 报红是正常现象，运行起来没事就行
+
+注意 Python 版本必须是 64 位的 3.6.6;
+
+第三方库主要是 requests 等，需要 pip 安装
